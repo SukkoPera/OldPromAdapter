@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name 82S129)(type Legacy)(uri ${KIPRJMOD}/libs/82S129.lib)(options "")(descr ""))
+  (lib (name void)(type Legacy)(uri ${KIPRJMOD}/libs/void.lib)(options "")(descr ""))
+)
