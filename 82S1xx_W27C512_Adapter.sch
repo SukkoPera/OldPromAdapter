@@ -4,13 +4,13 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "82S1xx to 27512 (EE)PROM Adapter"
-Date "2021-12-23"
+Title "OldPromAdapter: 82s1xx to 27512 (EE)PROM Adapter"
+Date "2022-02-27"
 Rev "1git"
 Comp "SukkoPera"
 Comment1 "Inspired from work by patzik"
 Comment2 "http://www.ukvac.com/forum/topic384396.html"
-Comment3 ""
+Comment3 "Licensed under CC BY-NC-SA 4.0"
 Comment4 ""
 $EndDescr
 $Comp
@@ -483,4 +483,26 @@ Wire Bus Line
 	4030 4920 4030 5625
 Wire Bus Line
 	7170 2370 7170 3870
+$Comp
+L Graphic:Logo_Open_Hardware_Small #LOGO1
+U 1 1 621C1E62
+P 10855 6855
+F 0 "#LOGO1" H 10855 7130 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 10855 6630 50  0001 C CNN
+F 2 "" H 10855 6855 50  0001 C CNN
+F 3 "~" H 10855 6855 50  0001 C CNN
+	1    10855 6855
+	1    0    0    -1  
+$EndComp
+$Comp
+L void:Void V0
+U 1 1 621C2845
+P 10760 6320
+F 0 "V0" H 10838 6366 50  0000 L CNN
+F 1 "LICENSE" H 10838 6275 50  0000 L CNN
+F 2 "82S1xx_W27C512_Adapter:cc_by_nc_sa" H 10760 6320 50  0001 C CNN
+F 3 "" H 10760 6320 50  0001 C CNN
+	1    10760 6320
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
