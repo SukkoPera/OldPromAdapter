@@ -1,7 +1,7 @@
 # OldPromAdapter
 OldPromAdapter is an Open Hardware Adapter that allows replacing 82s126, 82s129 and 82s131 PROMs with 27512 (E)EPROMs.
 
-![Board](https://raw.githubusercontent.com/SukkoPera/OldPromAdapter/master/doc/render-top.png)
+![Board](https://raw.githubusercontent.com/SukkoPera/OldPromAdapter/master/img/render-top.png)
 
 ## Summary
 This is just my remake of [a board by patzik](http://www.ukvac.com/forum/topic384396.html). As far as I can understand, it was meant to replace those PROMs that are often used on Arcade PCBs when they fail. It's already hard to find blank versions of the original PROMs, but finding the programmer that they require is next to impossible, so having an alternative can be handy.
