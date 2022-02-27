@@ -8,7 +8,7 @@ This is just my remake of [a board by patzik](http://www.ukvac.com/forum/topic38
 
 I was working with Jani on making a reproduction of the Action Replay cartridge for the C64, which has an 82s129 onboard and we needed some way to dump it. We found patzik's adapter but I didn't like the fact that it forces the unused data lines to ground. The data lines are outputs for the EPROM and they should be left disconnected if not used. It probably won't make much difference if you set the unused bits to 0, bit bad things will happen if you forget that and set any to 1. So I just redesigned the adapter and left them disconnected.
 
-I also think that having the adapter design files available for modification can be very useful, as those PROMs are much smaller than a 27512 EPROM and the adapter is necessarily a bit clunky in its current form. Thus it might not fit everywhere, but with the KiCad project at hand it can be quickly modified to fit in more places, if not everywhere.
+I also think that having the adapter design files available for modification can be very useful, as those PROMs are much smaller than a 27512 EPROM and the adapter is necessarily a bit clunky in its current form. Thus it might not fit everywhere, but with the KiCad project at hand it can be quickly modified to fit in more places, if not everywhere. This is just another example of why "design files" is better than "free gerbers" and of why the latter does not match the *open source* paradigm, even though many people still won't get it.
 
 The adapter works perfectly with Winbond W27C512 EEPROMs, which can be found very easily and for little money and which can be programmed with the ubiquitous TL866 programmer.
 
