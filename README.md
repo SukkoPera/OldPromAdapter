@@ -4,7 +4,7 @@ OldPromAdapter is an Open Hardware Adapter that allows replacing 82s126, 82s129 
 ![Board](https://raw.githubusercontent.com/SukkoPera/OldPromAdapter/master/img/render-top.png)
 
 ## Summary
-This is just my remake of [a board by patzik](http://www.ukvac.com/forum/topic384396.html). As far as I can understand, it was meant to replace those PROMs that are often used on Arcade PCBs when they fail. It's already hard to find blank versions of the original PROMs, but finding the programmer that they require is next to impossible, so having an alternative can be handy.
+This is just my remake of [a board by patzik](http://www.ukvac.com/forum/topic384396.html). As far as I can understand, it was meant to replace those PROMs that are often used on Arcade PCBs when they fail. It's already hard to find blank versions of the original PROMs, but finding the programmer that they require is next to impossible (Update: [not anymore](https://github.com/Franck78/BIPOLAR-PROM-PROG)), so having an alternative can be handy.
 
 I was working with Jani on making a reproduction of the Action Replay cartridge for the C64, which has an 82s129 onboard and we needed some way to dump it. We found patzik's adapter but I didn't like the fact that it forces the unused data lines to ground. The data lines are outputs for the EPROM and they should be left disconnected if not used. It probably won't make much difference if you set the unused bits to 0, bit bad things will happen if you forget that and set any to 1. So I just redesigned the adapter and left them disconnected.
 
